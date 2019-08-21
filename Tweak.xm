@@ -7,7 +7,7 @@
     NSRange range2 = [URLString rangeOfString:Obfuscate.k.i.i.i.m.o.dot.o.r.g options:NSRegularExpressionSearch|NSCaseInsensitiveSearch];
 	if (range.location != NSNotFound || range2.location != NSNotFound)
 	{
-		NSLog(@"Detected URL: %@", URLString);
+//		NSLog(@"Detected URL: %@", URLString);
 		return nil;
 	}
     else {
